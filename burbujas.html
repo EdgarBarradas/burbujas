@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Burbujas</title>
+		<!--link rel="stylesheet" type="text/css" href="svg.css"-->
+		<script src="burbujas.js"></script>
+	</head>
+	<body id="bd">
+		<svg id="root_svg" version="1.1" xmlns="http://www.w3.org/2000/svg"
+		width="1200px"
+		height="800px">
+			<radialGradient id="Gradient"
+            cx="0.5" cy="0.5" r="1" fx="0.6" fy="0.3">
+        		<stop offset="0%" stop-color="#3366FF00"/>
+        		<stop offset="100%" stop-color="#3366FFFF"/>
+      		</radialGradient>
+      		<circle id="c" cx="1000" cy="160" r="50" fill="url(#Gradient)"/>
+		</svg>
+	</body>
+</html>
